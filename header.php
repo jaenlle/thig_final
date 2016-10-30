@@ -27,7 +27,7 @@
 
 <!-- ~~~~~~~~~~~~~~ Top Menu Start ~~~~~~~~~~~~~~ -->
 
-        <div class="">
+        <div class="container">
             <?php wp_nav_menu( array( 'theme_location' => 'top-menu', 'menu_id' => 'Top Menu' ) ); ?>
         </div>
 
@@ -35,8 +35,9 @@
 
 
 <!-- ~~~~~~~~~~~~~~ Global Menu Start ~~~~~~~~~~~~~~ -->
+
         <div class="container">
-            <nav id="site-navigation" class="main-navigation navbar navbar-default" role="navigation">
+            <nav id="site-navigation" class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#globalmenu">
                       <span class="sr-only">Toggle navigation</span>
@@ -44,21 +45,25 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="julioaenlle.net/thig/"><img src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" width="200">
+                    <a href="julioaenlle.net/thig/"><img id="logoimg" src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance">
                     </a>
                 </div>
-                <div id="globalmenu" class="navbar-collapse collapse">
-                    <?php wp_nav_menu( array(
-                      'menu' => 'primary',
-                      'depth' => 2,
-                      'container' => false,
-                      'menu_class' => 'nav',
-                      //Process nav menu using our custom nav walker
-                      'walker' => new wp_bootstrap_navwalker())
-                    ); ?>
-                </div>
+                <?php
+                    wp_nav_menu( array(
+                        'menu'              => 'primary',
+                        'theme_location'    => 'primary',
+                        'depth'             => 2,
+                        'container'         => 'div',
+                        'container_class'   => 'collapse navbar-collapse',
+                        'container_id'      => 'globalmenu',
+                        'menu_class'        => 'nav navbar-nav',
+                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                        'walker'            => new wp_bootstrap_navwalker())
+                    );
+                ?>
             </nav><!-- #site-navigation -->
         </div>
+
 
 <!-- ~~~~~~~~~~~~~~ Global Menu End ~~~~~~~~~~~~~~ -->
 
