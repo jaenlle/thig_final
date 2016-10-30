@@ -15,6 +15,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link href="https://fonts.googleapis.com/css?family=Lato:700,700i,900|Open+Sans:600" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
@@ -27,9 +28,29 @@
 
 <!-- ~~~~~~~~~~~~~~ Top Menu Start ~~~~~~~~~~~~~~ -->
 
-        <div class="container">
-            <?php wp_nav_menu( array( 'theme_location' => 'top-menu', 'menu_id' => 'Top Menu' ) ); ?>
+    <div id="topmargin">
+        <div class="topbackground">
+            <div class="container">
+                <div id="top-navigation">
+                    <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+                        <?php
+                            wp_nav_menu( array(
+                                'menu'              => 'Top Menu',
+                                'theme_location'    => 'top_menu	',
+                                'depth'             => 2,
+                                'container'         => 'div',
+                                'container_class'   => 'collapse navbar-inverse navbar-collapse',
+                                'container_id'      => 'topmenu',
+                                'menu_class'        => 'nav navbar-nav navbar-right',
+                                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                                'walker'            => new wp_bootstrap_navwalker())
+                            );
+                        ?>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
 <!-- ~~~~~~~~~~~~~~ Top Menu End ~~~~~~~~~~~~~~ -->
 
