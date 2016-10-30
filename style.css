@@ -903,9 +903,15 @@ object {
 
 #site-navigation {
     background-color: #ffffff;
+    border-color: #ffffff;
 }
 
 
 /*--------------------------------------------------------------
 ## Global Menu Styling
 --------------------------------------------------------------*/
+
+#logoimg {
+    max-width: 175px;
+    padding: 0 10px;
+}
