@@ -162,3 +162,8 @@ require get_template_directory() . '/inc/jetpack.php';
    );
  }
  add_action( 'init', 'register_my_menus' );
+
+/**
+* Register Custom Navigation Walker
+*/
+require_once('wp_bootstrap_navwalker.php');
