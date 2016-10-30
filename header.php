@@ -38,7 +38,7 @@
         <div class="container">
             <nav id="site-navigation" class="main-navigation navbar navbar-default" role="navigation">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#globalmenu">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -47,7 +47,7 @@
                     <a class="navbar-brand" href="julioaenlle.net/thig/"><img src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" width="200">
                     </a>
                 </div>
-                <div id="navbar1" class="navbar-collapse collapse">
+                <div id="globalmenu" class="navbar-collapse collapse">
                     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
                 </div>
             </nav><!-- #site-navigation -->
