@@ -3634,11 +3634,11 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
-    right: 0;
+    /*right: 0;*/
     left: auto;
   }
   .navbar-right .dropdown-menu-left {
-    right: auto;
+    /*right: auto;*/
     left: 0;
   }
 }
@@ -4535,7 +4535,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #ddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #8cc63f;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {

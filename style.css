@@ -46,6 +46,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -895,4 +896,53 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*--------------------------------------------------------------
+## Top Menu Styling
+--------------------------------------------------------------*/
+#topmargin {
+    margin-bottom: 10px;
+}
+
+.topbackground,
+#topmenu {
+    background-color: #1b3764;
+}
+
+#topmenu {
+    border: 0;
+    border-color: #1b3764;
+}
+
+#topmenu a {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+	font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#topmenu a:hover {
+    color: #8cc63f;
+}
+
+/*--------------------------------------------------------------
+## Global Menu Styling
+--------------------------------------------------------------*/
+
+#site-navigation {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#site-navigation a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #8cc63f;
+    letter-spacing: 1px;
+}
+
+#logoimg {
+    max-width: 175px;
+    padding: 0 10px;
 }
