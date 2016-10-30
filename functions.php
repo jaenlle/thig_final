@@ -44,7 +44,7 @@ function thig_cat_5_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'thig_cat_5' ),
+		'primary' => esc_html__( 'primary', 'thig_cat_5' ),
 	) );
 
 	/*
@@ -155,9 +155,9 @@ require get_template_directory() . '/inc/jetpack.php';
  function register_my_menus() {
    register_nav_menus(
      array(
-       'top-menu' => __( 'Top Menu' ),
-       'footercompany-menu' => __( 'Footer Company' ),
-       'footerquicklinks-menu' => __( 'Footer Quick Links' )
+       'top-menu' => __( 'top_menu' ),
+       'footercompany-menu' => __( 'footer_company' ),
+       'footerquicklinks-menu' => __( 'footer_quick_links' )
      )
    );
  }
