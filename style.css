@@ -46,6 +46,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:700,700i,900|Open+Sans:600');
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -904,6 +906,13 @@ object {
 #site-navigation {
     background-color: #ffffff;
     border-color: #ffffff;
+}
+
+#site-navigation a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #8cc63f;
+    letter-spacing: 1px;
 }
 
 
