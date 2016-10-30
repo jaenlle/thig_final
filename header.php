@@ -27,7 +27,7 @@
 
 <!-- ~~~~~~~~~~~~~~ Top Menu Start ~~~~~~~~~~~~~~ -->
 
-        <div class="topmenu">
+        <div class="">
             <?php wp_nav_menu( array( 'theme_location' => 'top-menu', 'menu_id' => 'Top Menu' ) ); ?>
         </div>
 
@@ -35,11 +35,23 @@
 
 
 <!-- ~~~~~~~~~~~~~~ Global Menu Start ~~~~~~~~~~~~~~ -->
-
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'thig_cat_5' ); ?></button>
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-        </nav><!-- #site-navigation -->
+        <div class="container">
+            <nav id="site-navigation" class="main-navigation navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="julioaenlle.net/thig/"><img src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" width="200">
+                    </a>
+                </div>
+                <div id="navbar1" class="navbar-collapse collapse">
+                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+                </div>
+            </nav><!-- #site-navigation -->
+        </div>
 
 <!-- ~~~~~~~~~~~~~~ Global Menu End ~~~~~~~~~~~~~~ -->
 
