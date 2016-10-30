@@ -32,7 +32,6 @@
         <div class="topbackground">
             <div class="container">
                 <div id="top-navigation">
-                    <div class="collapse navbar-toggleable-md" id="navbarResponsive">
                         <?php
                             wp_nav_menu( array(
                                 'menu'              => 'Top Menu',
