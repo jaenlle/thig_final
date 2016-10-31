@@ -26,32 +26,52 @@
 
     <header id="masthead" class="site-header" role="banner">
 
-<!-- ~~~~~~~~~~~~~~ Top Menu Start ~~~~~~~~~~~~~~ -->
+        <!-- ~~~~~~~~~~~~~~ Top Menu Start ~~~~~~~~~~~~~~ -->
 
-    <div id="topmargin">
-        <div class="topbackground">
-            <div class="container">
-                <div id="top-navigation">
-                        <?php
-                            wp_nav_menu( array(
-                                'menu'              => 'Top Menu',
-                                'theme_location'    => 'top_menu	',
-                                'depth'             => 2,
-                                'container'         => 'div',
-                                'container_class'   => 'collapse navbar-inverse navbar-collapse',
-                                'container_id'      => 'topmenu',
-                                'menu_class'        => 'nav navbar-nav navbar-right',
-                                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                                'walker'            => new wp_bootstrap_navwalker())
-                            );
-                        ?>
+            <div id="topmargin">
+                <div class="topbackground">
+                    <div class="container">
+                        <div id="top-navigation">
+                            <form id="searchform" class="navbar-form navbar-right hidden-xs" role="search" action="<?php echo esc_url( site_url() ); ?>" method="get">
+                                <div class="form-group">
+                                    <input id="s" name="s" type="text" class="form-control" placeholder="Search" value="">
+                                </div>
+                            </form>
+                            <?php
+                                wp_nav_menu( array(
+                                    'menu'              => 'Top Menu',
+                                    'theme_location'    => 'top_menu	',
+                                    'depth'             => 2,
+                                    'container'         => 'div',
+                                    'container_class'   => 'collapse navbar-inverse navbar-collapse',
+                                    'container_id'      => 'topmenu',
+                                    'menu_class'        => 'nav navbar-nav navbar-right',
+                                    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                                    'walker'            => new wp_bootstrap_navwalker())
+                                );
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-<!-- ~~~~~~~~~~~~~~ Top Menu End ~~~~~~~~~~~~~~ -->
+        <!-- ~~~~~~~~~~~~~~ Top Menu End ~~~~~~~~~~~~~~ -->
+
+
+        <!-- ~~~~~~~~~~~~~~ Top Menu Responsive Start ~~~~~~~~~~~~~~ -->
+
+        <div id="topmenuresponsive" class="container visible-xs">
+            <div id="tmrrow" class="row">
+                <div class="col-xs-12 ">
+                    <ul>
+                        <li id="acctlogin"><a href="#">Account Login</a></li>
+                        <li id="findagent"><a href="#">Find An Agent</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ~~~~~~~~~~~~~~ Top Menu Responsive End ~~~~~~~~~~~~~~ -->
 
 
 <!-- ~~~~~~~~~~~~~~ Global Menu Start ~~~~~~~~~~~~~~ -->

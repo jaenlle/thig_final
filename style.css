@@ -928,6 +928,47 @@ footer {
 }
 
 /*--------------------------------------------------------------
+## Top Menu Responsive Styling
+--------------------------------------------------------------*/
+
+#topmenuresponsive {
+    background-color: #1b3764;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding: 20px 0;
+}
+
+#topmenuresponsive ul {
+    padding-left: 10px;
+}
+
+#topmenuresponsive li {
+    display: inline;
+    vertical-align: middle;
+}
+
+#topmenuresponsive li a {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    display: inline;
+    color: #ffffff;
+    padding: 12px;
+    margin: 0 10px;
+}
+
+#topmenuresponsive li a:hover {
+    text-decoration: none;
+}
+
+#acctlogin a {
+    background-color: #0099cd;
+}
+
+#findagent a {
+    background-color: #8cc63f;
+}
+
+/*--------------------------------------------------------------
 ## Global Menu Styling
 --------------------------------------------------------------*/
 
