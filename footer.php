@@ -14,22 +14,30 @@
     </div><!-- #content -->
         <footer class="site-footer" role="contentinfo">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <?php wp_nav_menu( array( 'theme_location' => 'footercompany-menu', 'menu_id' => 'footer_company' ) ); ?>
-                    </div>
+                <div class="bottomcontent row">
                     <div class="col-md-4 col-sm-4 col-xs-6">
                         <?php wp_nav_menu( array( 'theme_location' => 'footerquicklinks-menu', 'menu_id' => 'footer_quick_links' ) ); ?>
                     </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <?php wp_nav_menu( array( 'theme_location' => 'footercompany-menu', 'menu_id' => 'footer_company' ) ); ?>
+                    </div>
+
                     <div class="col-md-4 col-sm-4">
                         <a href="http://www.julioaenlle.net/thig/">
                             <img id="footerlogoimg" src="http://localhost/thig/wp-content/uploads/2016/10/thig_all_white.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" />
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="bottomtext row">
                     <div class="col-lg-12 pagination-centered">
-                        <p>
+                        <p class="text-center">
+                            P.O. Box 147018 Gainesville, FL 32614 <span style="color: #8cc63f"> | </span> Customer Service &amp; Claims  <a href="tel: 8003423407">800.342.3407</a> <span style="color: #8cc63f"> | </span> Phone <a href="tel: 3523328800 ">352.332.8800</a> <span style="color: #8cc63f"> | </span> Fax 352.332.9999
+                        </p>
+                    </div>
+                </div>
+                <div class="bottomtext row">
+                    <div class="col-lg-12 pagination-centered">
+                        <p class="text-center">
                             &copy; Copyright 2016 Tower Hill Insurance Group
                         </p>
                     </div>

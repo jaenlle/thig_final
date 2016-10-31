@@ -920,7 +920,7 @@ footer {
     font-family: 'Lato', sans-serif;
     color: #fff;
 	font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 #topmenu a:hover {
@@ -934,6 +934,7 @@ footer {
 #site-navigation {
     background-color: #ffffff;
     border-color: #ffffff;
+    letter-spacing: 2.5px;
 }
 
 #site-navigation a {
@@ -956,6 +957,12 @@ footer {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 	color: #ffffff;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+footer ul {
+    list-style: none;
 }
 
 footer a {
@@ -964,13 +971,23 @@ footer a {
     color: #ffffff;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:active
+footer a:visited {
     color: #8cc63f;
     text-decoration: none;
 }
 
 #footerlogoimg {
-    max-width: 200px;
+    max-height: 150px;
     display: block;
     margin: 0 auto;
+}
+
+.bottomcontent {
+    margin: 25px 0;
+}
+
+.bottomtext {
+    margin: 5px 0;
 }

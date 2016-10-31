@@ -65,7 +65,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a href="julioaenlle.net/thig/"><img id="logoimg" src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance">
+                    <a href="http://www.julioaenlle.net/thig/"><img id="logoimg" src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_horizontal.png" alt="Tower Hill Insurance | Florida Homeowners Insurance">
                     </a>
                 </div>
                 <?php
