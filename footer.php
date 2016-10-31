@@ -24,7 +24,7 @@
 
                     <div class="col-md-4 col-sm-4">
                         <a href="http://www.julioaenlle.net/thig/">
-                            <img id="footerlogoimg" src="http://localhost/thig/wp-content/uploads/2016/10/thig_all_white.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" />
+                            <img id="footerlogoimg" src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_all_white.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" />
                         </a>
                     </div>
                 </div>
