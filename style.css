@@ -906,7 +906,8 @@ object {
 }
 
 .topbackground,
-#topmenu {
+#topmenu,
+footer {
     background-color: #1b3764;
 }
 
@@ -945,4 +946,31 @@ object {
 #logoimg {
     max-width: 175px;
     padding: 0 10px;
+}
+
+/*--------------------------------------------------------------
+## Footer Styling
+--------------------------------------------------------------*/
+
+footer {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+	color: #ffffff;
+}
+
+footer a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #8cc63f;
+    text-decoration: none;
+}
+
+#footerlogoimg {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
 }
