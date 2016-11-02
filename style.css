@@ -1032,3 +1032,19 @@ footer a:visited {
 .bottomtext {
     margin: 5px 0;
 }
+
+/*--------------------------------------------------------------
+## Breadcrumb Styling
+--------------------------------------------------------------*/
+
+.breadcrumbs {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    color: #8cc63f;
+}
+
+.breadcrumbs a,
+.breadcrumbs a:hover {
+    color: #0099cd;
+    text-decoration: none;
+}
