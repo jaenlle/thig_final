@@ -952,25 +952,17 @@ footer {
     padding: 20px 0;
 }
 
-#topmenuresponsive ul {
-    padding-left: 10px;
-}
-
-#topmenuresponsive li {
-    display: inline;
-    vertical-align: middle;
-}
-
-#topmenuresponsive li a {
+#acctlogin a,
+#findagent a {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     display: inline;
     color: #ffffff;
-    padding: 12px;
+    padding: 10px;
     margin: 0 10px;
 }
 
-#topmenuresponsive li a:hover {
+#topmenuresponsive a:hover {
     text-decoration: none;
 }
 
