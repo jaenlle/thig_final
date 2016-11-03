@@ -32,7 +32,7 @@
             <div id="topmargin">
                 <div class="topbackground">
                     <div class="container">
-                        <div id="top-navigation">
+                        <div id="top-navigation" role="navigation">
                             <form id="searchform" class="navbar-form navbar-right hidden-xs" role="search" action="<?php echo esc_url( site_url() ); ?>" method="get">
                                 <div class="form-group">
                                     <input id="s" name="s" type="text" class="form-control" placeholder="Search" value="">
