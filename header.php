@@ -63,11 +63,11 @@
 
         <div id="topmenuresponsive" class="container visible-xs">
             <div id="tmrrow" class="row">
-                <div class="col-xs-12 ">
-                    <ul>
-                        <li id="acctlogin"><a href="#">Account Login</a></li>
-                        <li id="findagent"><a href="#">Find An Agent</a></li>
-                    </ul>
+                <div id="acctlogin" class="col-xs-6 text-right">
+                    <a href="#">Account Login</a>
+                </div>
+                <div id="findagent" class="col-xs-6 text-left">
+                    <a href="#">Find An Agent</a>
                 </div>
             </div>
         </div>
