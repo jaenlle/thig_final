@@ -1027,10 +1027,18 @@ footer a {
 }
 
 footer a:hover,
-footer a:active
+footer a:active,
 footer a:visited {
-    color: #8cc63f;
     text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+    color: #8cc63f;
+}
+
+footer a:visited {
+	color: #ffffff;
 }
 
 #footerlogoimg {
@@ -1045,6 +1053,10 @@ footer a:visited {
 
 .bottomtext {
     margin: 5px 0;
+}
+
+#footer-sidebar3 {
+    margin-top: 20px;
 }
 
 /*--------------------------------------------------------------
