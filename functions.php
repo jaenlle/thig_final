@@ -96,6 +96,82 @@ function thig_cat_5_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
+	register_sidebar( array(
+		'name' => 'Footer Sidebar 1',
+		'id' => 'footer-sidebar-1',
+		'description' => 'Appears in the footer area',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name' => 'Footer Sidebar 2',
+		'id' => 'footer-sidebar-2',
+		'description' => 'Appears in the footer area',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+	register_sidebar( array(
+		'name' => 'Footer Sidebar 3',
+		'id' => 'footer-sidebar-3',
+		'description' => 'Appears in the footer area',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	register_sidebar( array(
+        'name' => ('Main Button One'),
+        'id' => 'main-button-left',
+        'description' => 'button one on the homepage',
+        'before_widget' => '<div class="button">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+        register_sidebar( array(
+        'name' => ('Main Button Two'),
+        'id' => 'main-button-two',
+        'description' => 'button two on the homepage',
+        'before_widget' => '<div class="button">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+        register_sidebar( array(
+        'name' => ('Main Button Three'),
+        'id' => 'main-button-three',
+        'description' => 'button three on the homepage',
+        'before_widget' => '<div class="button">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+        register_sidebar( array(
+        'name' => ('Main Button Four'),
+        'id' => 'main-button-four',
+        'description' => 'button four on the homepage',
+        'before_widget' => '<div class="button">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+        register_sidebar( array(
+        'name' => ('slider widget'),
+        'id' => 'slider-widget',
+        'description' => 'homepage widget',
+        'before_widget' => '<div class="button">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
+
 add_action( 'widgets_init', 'thig_cat_5_widgets_init' );
 
 /**
