@@ -992,7 +992,7 @@ footer {
 }
 
 #logoimg {
-    max-width: 175px;
+    max-width: 200px;
     padding: 0 10px;
 }
 
@@ -1033,8 +1033,12 @@ footer a:visited {
 	color: #ffffff;
 }
 
+#footerlogo {
+    margin-top: 10px;
+}
+
 #footerlogoimg {
-    max-height: 150px;
+    max-width: 100px;
     display: block;
     margin: 0 auto;
 }
