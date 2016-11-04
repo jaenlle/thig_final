@@ -15,14 +15,14 @@
         <footer class="site-footer" role="contentinfo">
             <div class="container">
                 <div class="bottomcontent row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <?php wp_nav_menu( array( 'theme_location' => 'footerquicklinks-menu', 'menu_id' => 'footer_quick_links' ) ); ?>
                     </div>
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <?php wp_nav_menu( array( 'theme_location' => 'footercompany-menu', 'menu_id' => 'footer_company' ) ); ?>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div id="footerlogo" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <a href="http://www.julioaenlle.net/thig/">
                             <img id="footerlogoimg" src="http://julioaenlle.net/thig/wp-content/uploads/2016/10/thig_all_white.png" alt="Tower Hill Insurance | Florida Homeowners Insurance" />
                         </a>
